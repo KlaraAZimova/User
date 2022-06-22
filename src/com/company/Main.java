@@ -37,12 +37,12 @@ public class Main {
         UserServiceImpl userService = new UserServiceImpl(user, user1, user2, new UserDao());
 
         userService.findWithID(mas, 1);
-        System.out.println("----------------------------------------------------");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         userService.getAllUsers(mas);
-        System.out.println("----------------------------------------------------");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         userService.deleteWithID(mas, 2);
         userService.getAllUsers(mas);
-        System.out.println("----------------------------------------------------");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         userService.addUser(mas, new User("Nurtilek", 21, 4, Gender.MALE));
         userService.getAllUsers(mas);
 
