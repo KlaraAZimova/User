@@ -28,6 +28,7 @@ public class Main {
          16) Баардык userлерди консольго чыгарыныз.
          */
 
+        System.out.println("fghjk");
         User user = new User("Klara", 29, 1, Gender.FEMALE);
         User user1 = new User("Maksat", 25, 3, Gender.MALE);
         User user2 = new User("Aziza", 23, 2, Gender.FEMALE);
